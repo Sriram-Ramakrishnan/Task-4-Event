@@ -168,7 +168,7 @@ if(logGoogle){
       const user = result.user;
       document.getElementById("logout").textContent = user;
       console.log(user);
-//       document.location.href = "mainpage.html";
+      document.location.href = "mainpage.html";
       // ...
     }).catch((error) => {
       // Handle Errors here.
